@@ -1,0 +1,17 @@
+.transation {
+    &.clickable {
+        transition: background-color 0.25s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .1);
+        }
+    }
+
+    .transaction-performed-on {
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, .2);
+        color: #595959;
+        
+    }
+}

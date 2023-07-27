@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    box-shadow: none;
+
+    &.button-primary {
+        background-color: var(--colorPrimary);
+        color: #FFFFFF;
+    }
+}

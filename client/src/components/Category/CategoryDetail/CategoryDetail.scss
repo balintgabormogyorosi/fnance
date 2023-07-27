@@ -1,0 +1,13 @@
+.category-detail-wrapper {
+    .category-detail {
+        margin-bottom: 1rem;
+
+        .category-detail-info {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}

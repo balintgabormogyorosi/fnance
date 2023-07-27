@@ -1,0 +1,28 @@
+.input {
+    position: relative;
+
+    $spacing: 1rem;
+
+    .input-label, .input-control {
+        font-size: 1rem;
+    }
+
+    .input-label {
+        position: absolute;
+        top: $spacing;
+        right: $spacing;
+        bottom: $spacing;
+        left: $spacing;
+        pointer-events: none;
+    }
+
+    .input-control {
+        display: block;
+        padding: $spacing;
+        border: 2px solid var(--textLight);
+        background-color: var(--backgroundNormal);
+        border-radius: 1rem;
+        box-shadow: none;
+        outline: none;
+    }
+}

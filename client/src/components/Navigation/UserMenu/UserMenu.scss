@@ -1,0 +1,22 @@
+.user-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    .user-menu-item {
+        display: block;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+        transition: color 0.25s ease-in-out;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            color: inherit;
+        }
+    }
+}
